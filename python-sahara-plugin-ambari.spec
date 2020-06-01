@@ -158,3 +158,4 @@ install -p -D -m 644 doc/build/man/*.1 %{buildroot}%{_mandir}/man1/
 
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/sahara-plugin-ambari/commit/?id=00c40f39893733c9ef156d339e1b708c8699d5f0
