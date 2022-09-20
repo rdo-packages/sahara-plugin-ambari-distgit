@@ -16,6 +16,23 @@
       "message": "missing python3-sahara \u003e\u003d 10.0.0",
       "revId": "5dfcf2e1fe810caf6212df9543313bf3cd47a81a",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66097526_f74d7271",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-09-20T14:13:50Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "5dfcf2e1fe810caf6212df9543313bf3cd47a81a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
