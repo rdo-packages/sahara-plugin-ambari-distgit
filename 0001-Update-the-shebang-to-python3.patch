@@ -1,0 +1,27 @@
+From b7fe8999c9ad6f2a9b3223e5bb3816f52b068e71 Mon Sep 17 00:00:00 2001
+From: Joel Capitao <jcapitao@redhat.com>
+Date: Wed, 26 Jul 2023 11:40:55 +0200
+Subject: [PATCH] Update the shebang to python3
+
+It's needed downstream when packaging. In RDO and Fedora,
+we are hitting the issue "ERROR: ambiguous python shebang" during
+the build.
+
+Change-Id: I6fe4674a9163b63ae5461fe94253bcc42beb2707
+---
+ .../plugins/ambari/resources/generate_config.py                 | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sahara_plugin_ambari/plugins/ambari/resources/generate_config.py b/sahara_plugin_ambari/plugins/ambari/resources/generate_config.py
+index 177d3bf..c1ccc08 100755
+--- a/sahara_plugin_ambari/plugins/ambari/resources/generate_config.py
++++ b/sahara_plugin_ambari/plugins/ambari/resources/generate_config.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python3
+ # Copyright (c) 2015 Mirantis Inc.
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+-- 
+2.40.1
+
