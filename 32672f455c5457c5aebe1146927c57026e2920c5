@@ -39,6 +39,30 @@
       },
       "revId": "32672f455c5457c5aebe1146927c57026e2920c5",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "660ae973_4bfe2f4e",
+        "filename": "python-sahara-plugin-ambari.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-07-31T16:06:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6075af49_d3a4c53a",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 15
+      },
+      "revId": "32672f455c5457c5aebe1146927c57026e2920c5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
